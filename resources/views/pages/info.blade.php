@@ -15,11 +15,15 @@
 
 <body>
     <h1>Information</h1>
+    <nav>
+        <a href="{{route('home')}}">Home</a>
+        <a href="{{route('info')}}">Info</a>
+    </nav>
     <div>
         <p>Nome Utente: {{$name . " " . $surname}}</p>
         <p>Data di nascita: {{$birthday}} </p>
+        <p>Studi</p>
         <ul>
-            <p>Studi</p>
             <li>{{$school}}</li>
             <li>{{$university}}</li>
         </ul>

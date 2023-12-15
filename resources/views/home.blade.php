@@ -15,6 +15,10 @@
 
 <body>
     <h1>Hello World</h1>
+    <nav>
+        <a href="{{route('home')}}">Home</a>
+        <a href="{{route('info')}}">Info</a>
+    </nav>
     <div>
         <p>Nome Utente: {{$name . " " . $surname}}</p>
         <p>Età: {{$age}}</p>
