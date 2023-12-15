@@ -16,9 +16,9 @@
 <body>
     <h1>Hello World</h1>
     <div>
-        <p>Nome Utente: </p>
-        <p>Età: </p>
-        <p>Genere: </p>
+        <p>Nome Utente: {{$name . " " . $surname}}</p>
+        <p>Età: {{$age}}</p>
+        <p>Genere: {{$gender}}</p>
     </div>
 </body>
 

@@ -16,9 +16,13 @@
 <body>
     <h1>Information</h1>
     <div>
-        <p>Nome Utente: </p>
-        <p>Età: </p>
-        <p>Genere: </p>
+        <p>Nome Utente: {{$name . " " . $surname}}</p>
+        <p>Data di nascita: {{$birthday}} </p>
+        <ul>
+            <p>Studi</p>
+            <li>{{$school}}</li>
+            <li>{{$university}}</li>
+        </ul>
     </div>
 </body>
 

@@ -14,8 +14,21 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $data = [
+        'name' => 'Erica',
+        'surname' => 'Ostini',
+        'age' => '23',
+        'gender' => 'F',
+    ];
+    return view('home', $data);
 })->name('home');
 Route::get('/info', function () {
-    return view('pages.info');
-})->name('home');
+    $data = [
+        'name' => 'Erica',
+        'surname' => 'Ostini',
+        'birthday' => '14/06/2000',
+        'school' => 'Diploma ITC',
+        'university' => 'Laurea in Economia e Managment',
+    ];
+    return view('pages.info', $data);
+})->name('info');
