@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <h1>Hello World</h1>
+    <h1>Information</h1>
     <div>
         <p>Nome Utente: </p>
         <p>Età: </p>
