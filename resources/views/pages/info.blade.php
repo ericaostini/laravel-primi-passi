@@ -24,8 +24,8 @@
         <p>Data di nascita: {{$birthday}} </p>
         <p>Studi</p>
         <ul>
-            <li>{{$school}}</li>
-            <li>{{$university}}</li>
+            <li>{{$education['school']}}</li>
+            <li>{{$education['university']}}</li>
         </ul>
     </div>
 </body>

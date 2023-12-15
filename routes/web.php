@@ -27,8 +27,10 @@ Route::get('/info', function () {
         'name' => 'Erica',
         'surname' => 'Ostini',
         'birthday' => '14/06/2000',
-        'school' => 'Diploma ITC',
-        'university' => 'Laurea in Economia e Managment',
+        'education' => [
+            'school' => 'Diploma ITC',
+            'university' => 'Laurea in Economia e Managment',
+        ],
     ];
     return view('pages.info', $data);
 })->name('info');
